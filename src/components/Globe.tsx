@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
-import { createGlobe } from 'cobe';
+import createGlobe from 'cobe'; // Fixed import statement to use default import
 import { HistoricalEvent } from '@/lib/types';
 import EventPin from './EventPin';
 
